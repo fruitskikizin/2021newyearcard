@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Thanks for spending lovely time with me in 2020 </title>
+
+    <script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/snow.js"></script>
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            font-family: 'Gamja Flower', cursive;
+        } 
+
+        body {
+            background-color: #9b070f;
+        }
+
+        .envelope {
+
+
+            width: 200px;
+            height: 200px;
+
+            background-image: url('https://pngimg.com/uploads/envelope/envelope_PNG18366.png');
+            background-size: cover;
+            background-position: center;
+
+            margin: 200px auto 0 auto;
+
+            cursor: pointer;
+        }
+
+        .envelope-msg {
+            color: white;
+            text-align: center;
+
+        }
+
+        .letter-close {
+            display: block;
+        }
+
+        .rtan {
+            background-color: green;
+            width: 200px;
+            height: 200px;
+
+            background-image: url('https://raw.githubusercontent.com/fruitskikizin/2021newyearcard/main/Screen%20Shot%202021-01-01%20at%2012.11.51%20AM.png');
+            background-size: cover;
+            background-position: center;
+            margin: 100px auto 0 auto;
+
+            border-radius: 100px;
+
+            border: 1px solid white;
+            box-shadow: 0px 0px 10px 0px white;
+        }
+
+        .tonygif {
+            height: 500px;
+            background-color: white;
+            background-image: url('https://raw.githubusercontent.com/fruitskikizin/2021newyearcard/main/chwha.gif');
+
+            border-radius: 100px;
+
+            border: 3px solid salmon;
+            box-shadow: 0px 0px 50px 0px white;
+
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .messagebox {
+            background-color: ivory;
+
+            width: 400px;
+            margin: auto;
+            color: brown;
+
+            padding: 30px;
+
+            font-size: 20px;
+            line-height: 30px;
+
+            box-shadow: 0px 0px 50px 0px white;
+
+        }
+
+        .from {
+            text-align: right;
+            margin-bottom: 0;
+        }
+
+        @media screen and (max-width: 760px) {
+            .messagebox {
+                width: 300px;
+                padding: 20px;
+
+
+                .rtan {
+                    width: 150;
+                    height: 200px;
+                    margin: 70px auto 0px auto;
+
+                }
+
+                h1 {
+                    font-size: 28px;
+                }
+
+
+                .envelope {
+                    margin: 150px auto 0 auto;
+                }
+
+            }
+        }
+
+        .letter-open {
+            display: none;
+        }
+    </style>
+
+    <script>
+
+        function open_letter() {
+            document.getElementsByClassName("letter-close")[0].style.display = 'none'
+            document.getElementsByClassName("letter-open")[0].style.display = 'block'
+        }
+
+        </script>
+
+
+
+</head >
+
+            <body>
+                <div class="letter-close">
+                    <div class="envelope" onclick="open_letter ()"></div>
+                    <h2 class="envelope-msg"> 봉투를 열어 봐! </h2>
+
+                </div>
+
+
+                <audio src="https://raw.githubusercontent.com/fruitskikizin/2021newyearcard/main/JeSGm3URxWWfLTv7ocJHb82jNrYCOFVWQ1G5epfQ.mp3"></audio>
+
+
+
+                <div class="letter-open">
+
+                    <div class="rtan"> </div>
+
+                    <h1> 채화의 새로운 2021년! </h1>
+
+
+                    <div class="messagebox">
+                     안녕 채화! <br />
+            이번 년에는 다사다난한 한 해였던것 같다. <br />
+           새 해가 시작 됐으니까 지났던 것들은 싹 씻어내버리고,<br />
+           더 힘차고 밝은 한 해가 되기를 바랄게. <br />
+         언제나 응원 한다. <br />
+
+                        <p class="from"> 너의 동료 유수진 으로부터 </p>
+                    </div>
+
+                    <div class="tonygif">
+
+                    </div>
+
+                </div>
+
+            </body>
+
+</html >
